@@ -1,0 +1,146 @@
+#logo img {
+    width: 10%;
+    margin: 0;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+#home img {
+    padding-top: 0.4rem;
+    width: 70%;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1 span {
+    font-weight: bold;
+    color: #FE3745;
+}
+
+header.container {
+    background-color: black;
+    max-width: 100%;
+    margin: 0;
+}
+
+/* Navbar */
+.nav-item .nav-link {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: yellow;
+}
+
+/* unvisited link */
+a:link {
+    color: #445EA0;
+}
+
+/* visited link */
+ a:visited {
+    color: #445EA0;
+}
+
+/* mouse over link */
+ a:hover {
+    color: #FF5B61;
+}
+
+/* selected link */
+ a:active {
+    color: #445EA0;
+ }
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #B7092B;
+    border-color: #B7092B;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: blue;
+}
+.btn-primary:focus {
+    color: #fff !important;
+    background-color: #B7092B;
+}
+.btn-primary:active {
+    color: #fff !important;
+    background-color: blue;
+}
+.btn-primary:visited {
+    color: #fff !important;
+    background-color: #FE3745;
+}
+
+.btn-danger {
+    color: #fff !important;
+    background-color: #FE3745;
+}
+
+.btn-danger:hover {
+    color: #fff !important;
+    background-color: #B7092B;
+}
+.btn-danger:focus {
+    color: #fff !important;
+    background-color: #B7092B;
+}
+.btn-danger:active {
+    color: #fff !important;
+    background-color: #FE3745;
+}
+.btn-danger:visited {
+    color: #fff !important;
+    background-color: #FE3745;
+}
+
+.btn-secondary {
+    color: #fff !important;
+    background-color: #445EA0;
+}
+
+.btn-secondary:hover {
+    color: #fff !important;
+    background-color: #1A2B63;
+}
+.btn-secondary:active {
+    color: #fff !important;
+    background-color: #445EA0;
+}
+.btn-secondary:visited {
+    color: #fff !important;
+    background-color: #445EA0;
+}
+
+.post-image {
+    height: 20rem;
+    object-fit: cover;
+}
+.card {
+    position: relative;
+}
+.admin-btn {
+    position: absolute;
+    top: 0rem;
+    right: .5rem;
+}
+
+@media(max-width:767px){
+    .div.alert.alert-success {
+        width: 75%;
+    }
+    #home img {
+        width: 75%;
+    }
+}
